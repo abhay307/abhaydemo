@@ -1,0 +1,926 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family:arial;
+}
+html, body{
+	width:100%;
+	height:100%;
+}
+.container{
+	max-width:1150px;
+	width:100%;
+	margin:0px auto;
+	
+}
+
+.container:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#logo{
+	width:10%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+#logo #icon1{
+	font-size:80px;
+	color:red;
+}
+.navbar{
+	
+	width:80%;
+	margin-left:120px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-left:70px;
+}
+.navbar ul{
+	width:100%;
+	list-style:none;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	gap:40px;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+}
+.navbar ul li a:hover{
+	
+	color:red;
+	
+}
+.first{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+
+	
+}
+.nav-2 #btn-1 {
+	font-size:15px;
+	padding:10px 25px;
+	border:none;
+	background:red;
+	color:white;
+	font-weight:545;
+    width:100%;
+}
+
+.navbar{
+	display:flex;
+	
+}
+.main{
+	border-bottom:2px solid red;
+}
+.second{
+	width:100%;
+	height:80%;
+	padding-top:100px;
+	background-image:url("https://media.istockphoto.com/id/667734054/photo/industry-factory-oil-refinery.jpg?s=2048x2048&w=is&k=20&c=ShfZe80zG-iHxMaq5MCIq4AVG9s2M_RpLSTfvNWhHjU=");
+	background-size:cover;
+	background-size:100% 180%;
+	
+	
+}
+.content{
+width:60%;
+height:auto;
+color:white;
+}
+#btn-2 {
+	font-size:15px;
+	padding:10px 10px;
+	border:none;
+	background:red;
+	color:white;
+	font-weight:545;
+	transition:0.5s;
+}
+
+
+.content h1{
+	font-size:50px;
+}
+.content p{
+	font-size:18px;
+}
+#third{
+	height:32%;
+	width:90%;
+	margin:0px auto;
+	background-color:white;
+	position:relative;
+	top:90px;
+	border:2px solid red;
+}
+#division{
+	height:100%;
+	width:85%;
+	margin:0px auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.third-1{
+	width:30%;
+	height:100%;
+	padding:25px 40px;
+	transition:1s;
+	
+	
+}
+.third-1 h1{
+	font-size:20px;
+}
+.third-1 p{
+	font-size:16px;
+}
+.third-1:hover{
+	background-color:red;
+	color:white;
+	transform:skew(-5deg) rotate(360deg) scale(1.1);
+}
+#fourth{
+	width:100%;
+	height:98%;
+	padding-top:70px;
+}
+
+#fourth-1{
+	width:48%;
+	height:350px;	
+}
+#fourth-2{
+	width:48%;
+	height:350px;	
+}
+
+#four{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin-top:10px;
+}
+#h31{
+	color:red;
+}
+#fourth-1 h1{
+	font-size:40px;
+	word-spacing:1px;
+}
+#fourth-2{
+	background-image:url("https://media.istockphoto.com/id/186255464/photo/bangalore-skyline-india.jpg?s=2048x2048&w=is&k=20&c=evNdGo_ASdcKWmTp9qw3SxI7qMYdjpqU8cEbjby4Amg=");
+	background-size:cover;
+	background-size:100% 170%;
+	 
+}
+
+#count{
+	width:100%;
+	height:170px;
+	text-align:center;
+	margin-top:50px;
+}
+#hc1{
+	color:red;
+}
+#count p{
+	width:50%;
+	margin:0px auto;
+}
+
+#fifth{
+	width:100%;
+	height:83%;
+	background-color:#1B4242;
+}
+
+#fifth-1 {
+	width:60%;
+	margin:0px auto;
+	height:170px;
+	padding-top:35px;
+	text-align:center;
+	line-height:35px;
+}
+#fifth-1 h3{
+	color:#bbb;
+}
+#fifth-1 h1{
+	color:white;
+}
+#fip{
+	line-height:16px;
+	margin-top:10px;
+	color:#bbb;
+}
+#service{
+	width:100%;
+	height:410px;
+	margin-top:20px;
+}
+.service-1{
+	width:100%;
+	height:33.33%;
+	display:flex;
+	justify-content:space-between;
+}
+.service-11{
+	width:25%;
+	height:90%;
+	
+}
+.service-11 h1{
+	color:white;
+}
+
+.service-11 p{
+	color:#bbb;
+	margin-top:20px;
+}
+
+#sixth{
+	width:100%;
+	height:88%;
+}
+#sixth-1{
+	width:100%;
+	height:450px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#sixth-11{
+	width:45%;
+	height:70%;
+	background-image:url("https://media.istockphoto.com/id/1232146396/photo/hampton-virginia-skyline.jpg?s=2048x2048&w=is&k=20&c=oabnn9CTIlzpYqh6NfhvN53RPQbIu5Kb6IxKXUu4eYU=");
+	background-size:cover;
+	background-size:100% 160%;
+	
+}
+#sixth-12{
+	width:48%;
+	height:70%;
+	padding-top:40px;
+	
+}
+#sixp{
+	line-height:20px;
+}
+#six-2{
+	width:60%;
+	margin:0px auto;
+	height:150px;
+	text-align:center;
+}
+#sixp2{
+	width:80%;
+	margin:0px auto;
+}
+#seventh{
+	width:100%;
+	height:850px;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	margin-top:0px;
+}
+.seventh-1{
+	width:32%;
+	height:48%;
+	padding:0px;
+	background-color:#eee;
+	border-bottom:3px solid red;
+	padding:10px;
+}
+.seventh-1 img{
+	width:100%;
+	height:50%;
+}
+
+#btn-3 {
+	font-size:12px;
+	padding:10px 10px;
+	border:none;
+	background:red;
+	color:white;
+	font-weight:545;
+	transition:0.5s;
+}
+#sevp{
+	margin-bottom:10px;
+}
+#eighth{
+	margin-top:30px;
+	width:100%;
+	height:70%;
+	background-image:url("https://media.istockphoto.com/id/533436590/photo/female-and-male-building-surveyors.jpg?s=2048x2048&w=is&k=20&c=QJke0kpJXgVqw9WM7qsz2f0zJZGDWZmWlp17LyBPzWE=");
+	background-size:cover;
+	background-size:100% 170%;
+	}
+	
+#nine{
+	width:100%;
+	height:650px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:50px 0px 15px 0px;
+}
+#nine-1{
+	width:35%;
+	height:100%;
+}
+#nine-1 h2{
+	word-spacing:5px;
+	margin-top:14px;
+}
+#nine-1 h4{
+	color:red;
+}
+#nine-1 p{
+	margin:14px 0px;
+} 
+
+#nine-1 img{
+	width:100%;
+	height:72%;
+} 
+#ninp{
+	margin-top:10px;
+}
+#nine-2{
+	width:50%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+}
+
+.nine-11{
+	width:100%;
+	height:22%;
+	background-color:#eee;
+	display:flex;
+	justify-content:space-between;
+	
+}
+.nine-one{
+	width:60%;
+	height:100%;
+	padding:18px 15px 0px 15px;
+}
+.nine-two{
+	width:40%;
+	height:100%;
+	padding:40px 50px;
+	border-left:2px solid grey;
+}
+#tenth{
+	width:100%;
+	height:150px;
+	background-color:#35374B;
+	
+}
+#tenth-1{
+	padding:20px 0px;
+	font-size:20px;
+	color:white;
+	display:flex;
+	align-items:center;
+	gap:250px;
+}
+#tenth-11{
+	
+	width:60%;
+}
+#tenth-1 p{
+	word-spacing:2px;
+	letter-spacing:1px;
+}
+#tenth-12{
+	padding-top:25px;
+	
+	width:30%;
+}
+#btn-4{
+	font-size:16px;
+	padding:10px 15px;
+	font-weight:500;
+	border: solid white;
+	background-color:#35374B;
+	color:white;
+}
+#btn-4:hover{
+	border: solid red;
+	background-color:red;
+}
+#eleven{
+	width:100%;
+	height:36%;
+	background-color:#50727B;
+	border-top:solid white;
+}
+#eleven-1{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:30px 0px;
+}
+.eleven-11{
+	width:28%;
+	height:220px;
+	color:white;
+}
+#elev01 span{
+	color:red;
+	margin-right:5px;
+	font-weight:solid;
+}
+ 
+#elev01 i{
+	font-size:22px;
+	border: solid white;
+	color:white;
+	margin-right:5px;
+	border-radius:50px;
+	padding:5px;
+}
+#elev01 a{
+	text-decoration:none;
+}
+#eleven-112{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	width:35%;
+	color:white;
+}
+.elev02{
+	width:48%;
+	height:100%;
+}
+.elev02 ul{
+	list-style:none;
+}
+.elev02 ul li a{
+	text-decoration:none;
+	color:white;
+	
+}
+.elev02 ul li{
+	line-height:30px;
+}
+.elev02 ul li a:hover{
+	color:red;
+}
+#elev03 form input{
+	width:120px;
+	margin-right:14px;
+	padding:3px 26px;
+	font-size:20px;
+	border-radius:0px;
+	border:1px solid black;
+}
+#btn-5{
+	border-radius:0px;
+	border:1px solid red;
+	margin-top:5px;
+	padding:7px 25.5px;
+	font-size:18px;
+	background-color:red;
+	color:white;
+}
+#twelve{
+	width:100%;
+	
+	background-color:#50727B;
+	border-top:2px solid #ccc;
+	padding:10px 0px;
+	
+}
+#twelve-1{
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+#twelve-01{
+	width:55%;
+	padding:5px 10px;
+}
+#twelve-02{
+	width:35%;
+	display:flex;
+	justify-content:space-between;
+}
+#twelve-02 div{
+	padding:10px 30px 3px 0px;
+}
+#last1{
+	border-right:solid red;
+	
+	
+}
+@media screen and (max-width: 481px) and (min-width:320px) {
+  
+  #logo h1{
+	  font-size:20px;
+  }
+ #logo #icon1{
+	  font-size:50px;
+	  margin-left:10px;
+  }
+  .navbar{
+	  display:none;
+  }
+  .content h3{
+	  font-size:15px;
+	  margin-top:0px;
+  }
+  .second{
+	  padding:50px 10px;
+	  background-image:url("https://media.istockphoto.com/id/2000207956/photo/oil-gas-refinery-or-petrochemical-plant-with-business-concept.jpg?s=2048x2048&w=is&k=20&c=vJRs4Waued5aTX63nayz9v9Pbxvp0Bb2q7YEcuwloi8=");
+  }
+  .content h1{
+	  font-size:22px;
+  }
+  .content p{
+	  font-size:16px;
+  }
+  .nav-2 #btn-1 {
+	font-size:10px;
+	padding:5px 20px;
+   
+}
+  #division{
+	  display:flex;
+	  flex-direction:column;
+	  padding:0px;
+	  margin:0px;
+	  width:100%;
+  }
+  #third{
+	  padding:0px;
+	  height:400px;
+	  position:relative;
+	  top:20px;
+	 
+  }
+  .third-1{
+	  margin:0px 0px 0px 0px;
+	  padding:10px 20px;
+	  width:100%;
+	  
+  }
+  .third-1 h1{
+	  font-size:17px;
+  }
+  .third-1 p{
+	  font-size:14px;
+	  text-align:justify;
+	  line-height:20px;
+  }
+  #fourth{
+	  position:relative;
+	  top:320px;
+  }
+  #h31{
+	  font-size:15px;
+	  margin-left:10px;
+  }
+  #fourth-1 h1{
+	  font-size:17px;
+	  margin-left:10px;
+	  width:100%;
+	  
+  }
+  #fourth-1{
+	  width:600%;
+	  
+  }
+  #fourth-1 p{
+	  font-size:15px;
+	  margin-left:10px;
+	  width:100%;
+	  text-align:justify;
+	  line-height:20px;
+	  padding:0px;
+	  margin-bottom:0px;
+	  
+	 
+  }
+  #fourth-2{
+	  background-image:none;
+  }
+  #four{
+	  width:100%;
+	  padding:0px;
+	  
+	  
+  }
+  #btn-2{
+	  font-size:12px;
+	  font-weight:700px;
+	  margin-left:10px;
+	  padding:5px 5px;
+  }
+  
+  #count{
+	  margin:0px;
+	  position:relative;
+	  bottom:80px;
+  }
+  #count h1{
+	  font-size:20px;
+  }
+  #count h3{
+	  font-size:15px;
+	  margin:0px 10px;
+  }
+  #count p{
+	  font-size:15px;
+  }
+  #fifth{
+	  position:relative;
+	  top:450px;
+	  height:910px;
+	  
+  }
+  #fifth-1{
+	  padding:5px 5px 0px 10px;
+	  width:100%;
+  }
+  #fifth-1 h3{
+	  font-size:15px;
+	  
+  }
+  #fifth-1 h1{
+	  font-size:15px;
+	  line-height:19px;
+  }
+   #fifth-1 p{
+	  font-size:15px;
+	  
+  }
+  #service{
+	  display:flex;
+	  flex-direction:column;
+	  margin-top:0px;
+	  padding:0px 0px 0px 10px;
+	  height:700px;
+	 justify-content:space-between;
+  }
+  .service-1{
+	  display:flex;
+	  flex-direction:column;
+	  padding:0px;
+	  justify-content:space-between;
+	  
+	  height:30%;
+	  
+  }
+  .service-11 h1{
+	  font-size:15px;
+	  margin:10px 0px 0px 0px;
+  }
+  .service-11 p{
+	  font-size:15px;
+	  margin-top:0px;
+	  padding:0px;
+	 
+  }
+  .service-11{
+	  width:100%;
+	  height:200px;
+	  padding:0px;
+  }
+  #sixth{
+	  position:relative;
+	  top:380px;
+  }
+  #sixth-1{
+	 display:flex;
+	 flex-direction:column;
+  }
+  #sixth-11{
+	width:100%;
+	background-size:100% 160%;
+	margin-top:80px;
+  }
+  #sixth-12{
+	  width:100%;
+	  text-align:center;
+	 padding:15px 0px 0px 0px;
+  }
+  #sixth-12 h1{
+	  font-size:20px;
+	  
+  }
+  #sixth-12 p{
+	  font-size:16px;
+  }
+  #sixth-12 button{
+	  font-size:14px;
+	  font-weight:100;
+	  margin-bottom:10px;
+  }
+  #six-2 {
+	margin-top:20px;
+	width:100%;
+	padding:0px 10px 0px 10px;
+  }
+  #six-2 h1{
+	  font-size:20px;
+	  
+  }
+  #six-2 p{
+	  font-size:16px;
+	  width:100%;
+  }
+  
+  #seventh{
+	  position:relative;
+	  top:590px;
+	  
+	  
+  }
+  .seventh-1{
+	  width:100%;
+	  
+  }
+  #auto{
+	  height:480px;
+  }
+  #eighth{
+	  position:relative;
+	  top:2310px;
+	  background-image:url("https://media.istockphoto.com/id/1643930379/photo/portrait-of-an-experienced-architect-with-hard-hat-holding-digital-tablet-computer-while.jpg?s=612x612&w=0&k=20&c=nuefpjLHDwxhkTrLpZdOG64fsOmvyUb9oQMK9p3YWVk=");
+	  background-size:cover;
+	  background-size:150% 100%;
+  }
+    #nine{
+	  position:relative;
+	  top:2280px;
+	  display:flex;
+		flex-direction:column;
+	}
+	#nine-1{
+		width:100%;
+		padding:0px 10px;
+		text-align:center;
+	}
+	#nine-1 h4{
+		word-spacing:0px;
+		font-size:15px;
+	}
+	#nine-1 h2{
+		word-spacing:0px;
+		font-size:20px;
+		margin-top:10px;
+	}
+	#nine-1 p{
+		font-size:15px;
+		margin:10px 0px;
+	}
+	#nine-2{
+		
+		width:100%;
+		margin-top:50px;
+		height:500px;
+	}
+	.nine-one{
+		padding:12px 10px;
+	}
+	.nine-one h3{
+		font-size:14px;
+		
+	}
+	.nine-one p{
+		font-size:13px;
+		
+	}
+	#ninp{
+		margin-top:5px;
+	}
+	.nine-11{
+		height:24%;
+	}
+	.nine-two{
+		padding:35px 5px;
+	}
+	#tenth{
+		position:relative;
+		top:2490px;
+		width:100%;
+		height:210px;
+	}
+	#tenth-1{
+		width:100%;
+		display:flex;
+		flex-direction:column;
+		gap:0px;
+		padding: 20px 10px 0px 10px;
+	}
+	#tenth-12{
+		width:100%;
+		margin-top:0px;
+		text-align:center;
+		
+	}
+	#tenth-12 button{
+		font-size:12px;
+		font-weight:600;
+	}
+	#tenth-11 {
+		width:100%;
+		text-align:center;
+	}
+	#tenth-11 h3{
+		font-size:16px;
+		
+	}
+	#tenth-11 p{
+		font-size:15px;
+		
+	}
+	#eleven{
+		position:relative;
+		top:2490px;
+		height:730px;
+	}
+	#eleven-1{
+		display:flex-direction;
+		flex-direction:column;
+		padding:10px 10px 10px 10px;
+	}
+	#elev01{
+		font-size:15px;
+		width:100%;
+		height:180px;
+	}
+	#eleven-112{
+		width:100%;
+		padding:0px;
+	}
+	#elev03{
+		width:100%;
+		
+	}
+	#elev03 form{
+		width:100%;
+		text-align:center;
+		
+	}
+	#btn-5{
+		padding:5px 25px;
+		margin-right:14px;
+	}
+	#twelve{
+		position:relative;
+		top:2370px;
+		
+	}
+	#twelve-1{
+		display:flex;
+		flex-direction:column;
+		gap:10px;
+		padding:0px;
+	}
+	#twelve-01{
+		width:100%;
+		font-size:14px;
+		padding:0px 10px;
+	}
+	#twelve-02{
+		width:100%;
+		font-size:14px;
+	}
+	#last1{
+		padding:0px 5px;
+		margin:0px;
+		margin-right:0px;
+	}
+	#last1 p{
+		width:130%;
+		margin-left:10px;
+	}
+	#last3 p{
+		margin-left:10px;
+		width:130%;
+	}
+}
